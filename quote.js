@@ -14,6 +14,7 @@ class QuoteAndAuthor extends React.Component {
           style={{ color: randomColor }}
         >
           <h1 id="quote">"{this.props.quote}"</h1>
+//j
           <h5 id="author">
             -{this.props.author ? this.props.author : "Unknown"}-
           </h5>
